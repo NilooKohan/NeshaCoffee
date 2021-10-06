@@ -1,0 +1,40 @@
+/* Generally */
+body {
+     font-family: "Kodchasan";
+     font-size: 1.2rem;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+  }
+
+  .navbar {
+    border-bottom: 1px solid #888
+  }
+ 
+  /* Navbar */
+
+  .nav-link {
+    cursor: pointer;
+  }
+
+  .nav-link:active,
+  .nav-link:hover {
+    color:#629c44 !important
+  }
+
+  .icon-link:active svg, 
+  .icon-link:hover svg {
+    color:#629c44
+  }
+
+  /* Slider */
+  .slider-image{
+    width: 100vw;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+  }
+  
+
