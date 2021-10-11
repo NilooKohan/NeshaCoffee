@@ -9,7 +9,9 @@ body {
     margin-left: 20px;
   }
 
-  .navbar {
+  .navbar 
+  .caroussel
+  {
     border-bottom: 1px solid #888
   }
  
@@ -37,4 +39,5 @@ body {
     background-size: cover;
   }
   
+
 
