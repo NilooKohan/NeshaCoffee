@@ -28,7 +28,7 @@ body {
 
   .icon-link:active svg, 
   .icon-link:hover svg {
-    color:#629c44
+    color:#629c44 
   }
 
   /* Slider */
@@ -39,5 +39,15 @@ body {
     background-size: cover;
   }
   
+  /* Footer */
+
+  .footer {
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    border-top: 1px solid #888;
+    
+  }
+
 
 
