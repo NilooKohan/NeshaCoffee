@@ -30,6 +30,9 @@ body {
   .icon-link:hover svg {
     color:#629c44 
   }
+  .icon-link {
+    color: black;
+  }
 
   /* Slider */
   .slider-image{
@@ -37,6 +40,15 @@ body {
     height: 70vh;
     background-position: center;
     background-size: cover;
+  }
+
+  .card-image-top {
+    display:block;
+    width:100%;
+    background-color: #f7f7f7;
+  }
+  .card-wrapper {
+    height: 100%;
   }
   
   /* Footer */
