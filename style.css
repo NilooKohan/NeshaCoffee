@@ -50,6 +50,11 @@ body {
   .card-wrapper {
     height: 100%;
   }
+
+  /* Star Rating */
+  .checked {
+    color: orange;
+  }
   
   /* Footer */
 
