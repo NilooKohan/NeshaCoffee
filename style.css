@@ -1,70 +1,95 @@
 /* Generally */
 body {
-     font-family: "Kodchasan";
-     font-size: 1.2rem;
-  }
-  
-  h1 {
-    color: navy;
-    margin-left: 20px;
-  }
+  font-family: "Kodchasan";
+  font-size: 1.2rem;
+}
 
-  .navbar 
-  .caroussel
-  {
-    border-bottom: 1px solid #888
-  }
- 
-  /* Navbar */
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
 
-  .nav-link {
-    cursor: pointer;
-  }
+.navbar .caroussel {
+  border-bottom: 1px solid #888;
+}
 
-  .nav-link:active,
-  .nav-link:hover {
-    color:#629c44 !important
-  }
+/* Navbar */
 
-  .icon-link:active svg, 
-  .icon-link:hover svg {
-    color:#629c44 
-  }
-  .icon-link {
-    color: black;
-  }
+.nav-link {
+  cursor: pointer;
+}
 
-  /* Slider */
-  .slider-image{
-    width: 100vw;
-    height: 70vh;
-    background-position: center;
-    background-size: cover;
-  }
+.nav-link:active,
+.nav-link:hover {
+  color: #629c44 !important;
+}
 
-  .card-image-top {
-    display:block;
-    width:100%;
-    background-color: #f7f7f7;
-  }
-  .card-wrapper {
-    height: 100%;
-  }
+.icon-link:active svg,
+.icon-link:hover svg {
+  color: #629c44;
+}
+.icon-link {
+  color: black;
+}
 
-  /* Star Rating */
-  .checked {
-    color: orange;
-  }
-  
-  /* Footer */
+/* Slider */
+.slider-image {
+  width: 100vw;
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+}
 
-  .footer {
-    font-family: sans-serif;
-    font-size: 1rem;
-    text-align: center;
-    border-top: 1px solid #888;
-    
-  }
+.card-image-top {
+  display: block;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+.card-wrapper {
+  height: 100%;
+}
 
+/* Star Rating */
+.checked {
+  color: orange;
+}
 
+/* Footer */
 
+.footer {
+  font-family: sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  border-top: 1px solid #888;
+}
+
+.card-item {
+  margin-top: 60px;
+}
+
+.image-wrapper {
+  width: 100%;
+  padding-top: 100%;
+  margin-bottom: 24px;
+}
+.image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.image-container {
+  position: absolute;
+  overflow: hidden;
+  inset: 0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}

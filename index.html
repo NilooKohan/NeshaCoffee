@@ -51,6 +51,9 @@
             <a class="nav-link active" href="./OurCoffee.html">Our Coffee</a>
           </li>
           <li class="nav-item mx-lg-2">
+            <a class="nav-link active" href="./OurMenu.html">Our Menu</a>
+        </li>
+          <li class="nav-item mx-lg-2">
             <a class="nav-link active" href="./OurTeam.html">Our Team</a>
           </li>
           <li class="d-flex align-items-center mt-2 mt-lg-0 mx-lg-2">
@@ -199,15 +202,19 @@
         success: function (data) {
           console.log(data);
           $.each(data.results, function (key, person) {
-            console.log(person.gender)
+            console.log(person.gender) 
+            //Generate random number
+            let number =Math.floor(Math.random() * (4-1) + 3) 
+            let stars=''
+            for(i=0; i<number; i=i+1) {
+              stars=stars+ '<span class="fa fa-star checked"></span>'
+            }
+          // forloop add a star to the star string
+          //stars=stars+ '<span class="fa fa-star checked"></span>'
             $('#users').append(`<div class="col-md-3 text-center ${person.gender}">
                                 <img src="${person.picture.large}" alt="" class="img-fluid rounded-circle">
                                 <h2></h2>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
+                                ${stars}
                             </div>`);
           })
         }
